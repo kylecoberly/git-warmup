@@ -1,0 +1,12 @@
+  193  cp cli.md cli-2.md
+  194  ls
+  195  cp cli.2.md cli.md
+  196  cp cli-2 cli.md
+  197  cp cli-2.md cli.md
+  198  ls
+  199  mv cli-2.md cli.md
+  200  ls
+  201  cd ../
+  202  rm -rf notes
+  203  ls
+  204  history | tail -n 12 > cli_history
